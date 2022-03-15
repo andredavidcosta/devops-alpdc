@@ -23,7 +23,7 @@ jobs:
       AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
       AWS_EC2_METADATA_DISABLED: true
     steps:
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v5
       with:
         name: deploy
         path: README.md
