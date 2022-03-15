@@ -1,0 +1,19 @@
+{
+  "name": "devops-alpdc",
+  "version": "1.0.0",
+  "description": "Pacote teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andredavidcosta/devops-alpdc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andredavidcosta/devops-alpdc/issues"
+  },
+  "homepage": "https://github.com/andredavidcosta/devops-alpdc#readme"
+}
