@@ -5,11 +5,11 @@
   tasks:
     - name: config bucket
       amazon.aws.s3_bucket:
-        name: devops-alpdc
+        name: devops-alpdc1
         state: present
 
     - name: copy files
       community.aws.s3_sync:
-        bucket: devops-alpdc
+        bucket: devops-alpdc1
         file_root: frontend/out
         permission: public-read
